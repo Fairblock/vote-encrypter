@@ -42,7 +42,7 @@ func main() {
 	if err != nil {
 		fmt.Println(err)
 	} else {
-		fmt.Println("Encrypted Vote: ", encVote)
+		fmt.Println(encVote)
 	}
 }
 
