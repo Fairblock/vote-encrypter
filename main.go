@@ -17,7 +17,7 @@ func main() {
 	voteOption := os.Args[1]
 	randNo := os.Args[2]
 	identity := os.Args[3]
-	var pubKey string = "99d54aeb64f6d91ed1ab668448cfffe9217e3d3ed24861856ef070eb075df6149e6a1d0a7d7594e5b0cdfc8f44db5e8d"
+	pubKey := os.Args[4]
 
 	// Find out which vote option user chose
 	byteVoteOption, err := v1.VoteOptionFromString(govutils.NormalizeVoteOption(voteOption))
